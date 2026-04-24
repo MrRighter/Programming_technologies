@@ -11,16 +11,13 @@
 //        static void Main() {
 //            string brakes = "({[[]]}{}[]())";
 
-//            while (brakes.Contains("()") || brakes.Contains("{}") || brakes.Contains("[]")) {
+//            while (brakes.Contains("()") || brakes.Contains("{}") || brakes.Contains("[]"))
 //                brakes = brakes.Replace("{}", "").Replace("[]", "").Replace("()", "");
-//            }
 
-//            if (brakes.Length == 0) {
+//            if (brakes.Length == 0)
 //                Console.WriteLine("Правильная скобочная последовательность!");
-//            }
-//            else {
+//            else
 //                Console.WriteLine("Неправильная скобочная последовательность!");
-//            }
 //        }
 //    }
 //}

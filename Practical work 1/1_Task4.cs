@@ -12,16 +12,13 @@
 
 //            string new_cleanP = "";
 
-//            for (int i = clean_palindrome.Length - 1; i > -1; i--) {
+//            for (int i = clean_palindrome.Length - 1; i > -1; i--)
 //                new_cleanP += clean_palindrome[i];
-//            }
 
-//            if (clean_palindrome == new_cleanP) {
+//            if (clean_palindrome == new_cleanP)
 //                Console.WriteLine("Палиндром!");
-//            }
-//            else {
+//            else
 //                Console.WriteLine("Не палиндром!");
-//            }
 //        }
 //    }
 //}
