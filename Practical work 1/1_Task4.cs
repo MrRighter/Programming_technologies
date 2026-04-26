@@ -8,7 +8,7 @@
 //    internal class _1_Task4 {
 //        static void Main() {
 //            string palindrome = "А роза упала на лапу Азора!";
-//            string clean_palindrome = string.Concat(palindrome.Where(char.IsLetter)).ToLower();
+//            string clean_palindrome = string.Concat(palindrome.Where(char.IsLetterOrDigit)).ToLower();
 
 //            string new_cleanP = "";
 
